@@ -1,0 +1,43 @@
+body{
+    font-family:"Roboto","Noto Sans KR", sans-serif;
+    padding:0px;
+    margin:0px;
+    background-color: #fff;
+}
+ul,li{
+    margin:0px;
+    padding:0px;
+    list-style:none;
+}
+.header{
+    .logo_section{
+        position: fixed;
+        left:30px;
+        top:13px;
+        mix-blend-mode: difference;
+    }
+    .main_menu{
+        position: fixed;
+        right:30px;
+        top:10px;   
+        color:#fff;
+        mix-blend-mode: difference;
+        li{
+            display:inline-block;
+            font-size:20px;
+            font-weight:500;
+        }
+    }
+}
+
+
+.main{
+    font-size:16vw;
+    font-weight:500;
+    height:100vh;
+    text-align: center;
+    line-height: 100vh;
+    background-image: url("./img/back.jpg");
+    color:#fff;
+
+}

@@ -1,0 +1,86 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Inter", "Noto Sans KR", sans-serif;
+  font-weight: 500;
+  background-color: #fff;
+}
+
+ul, li {
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+}
+
+.header {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 15px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.header .logo img {
+  height: 20px;
+}
+.header .menu {
+  display: flex;
+  gap: 25px;
+  font-size: 22px;
+  text-transform: uppercase;
+}
+.header .mobile_menu {
+  display: none;
+}
+
+.title {
+  font-size: 4vw;
+  font-weight: 500;
+  padding-top: 170px;
+  padding-bottom: 170px;
+  padding-left: 30px;
+}
+.title .span_t {
+  width: 200px;
+  height: 20px;
+  display: inline-block;
+}
+
+.business_info {
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: 500;
+  padding-bottom: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.business_info .bi_right {
+  display: flex;
+  gap: 87px;
+}
+
+.main_img {
+  background-image: url(./day6_background.jpg);
+  background-size: cover;
+  height: 80vh;
+  padding-left: 30px;
+  padding-top: 30px;
+}
+.main_img .image_copy {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  width: 510px;
+}
+.main_img .arrow {
+  display: none;
+}/*# sourceMappingURL=day6 practice.css.map */

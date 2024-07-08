@@ -1,0 +1,401 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Pretendard", sans-serif;
+  font-weight: 500;
+  letter-spacing: -0.5px;
+  background-color: #FDFBF7;
+}
+
+ul, li {
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+}
+
+.header {
+  padding-top: 18px;
+  padding-bottom: 18px;
+  width: 100%;
+  height: 65px;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  z-index: 999;
+}
+.header .header_in {
+  width: 1240px;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  align-items: center;
+}
+.header .header_in .menu {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+  height: 100%;
+}
+.header .header_in .menu img {
+  height: 30px;
+  display: block;
+}
+.header .header_in .search {
+  border-radius: 33px;
+  overflow: hidden;
+  width: 60%;
+  height: 40px;
+  padding-right: 14px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  align-items: center;
+  box-sizing: border-box;
+}
+.header .header_in .search .category {
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  gap: 8px;
+  padding-left: 8px;
+  padding-right: 4px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  background-color: #FF9900;
+  font-size: 16px;
+  width: 110px;
+  align-items: center;
+}
+.header .header_in .search .category img {
+  height: 8px;
+  display: block;
+}
+.header .header_in .search .search_button {
+  align-items: center;
+}
+.header .header_in .search .search_button img {
+  height: 27px;
+  display: block;
+}
+.header .my_menu {
+  color: #fff;
+  display: flex;
+  gap: 33px;
+}
+.header .my_menu .country {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 9px;
+}
+.header .my_menu .country .country_detail .address {
+  font-size: 13px;
+}
+.header .my_menu .country .country_detail .korea {
+  font-size: 19px;
+}
+.header .my_menu .my_details {
+  display: flex;
+  box-sizing: border-box;
+  gap: 22px;
+  text-align: center;
+}
+.header .my_menu .my_details .my_detail {
+  font-size: 13px;
+}
+
+.header_second {
+  position: absolute;
+  top: 65px;
+  left: 0px;
+  width: 100%;
+  height: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  box-sizing: border-box;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 50;
+}
+.header_second .header_second_in {
+  width: 1240px;
+  display: flex;
+}
+.header_second .header_second_in .header_menu {
+  display: flex;
+  gap: 20px;
+  font-size: 16px;
+}
+
+.banner {
+  margin-top: 110px;
+  width: 100%;
+  box-sizing: border-box;
+  position: relative;
+  z-index: 0;
+}
+.banner img {
+  width: 100%;
+}
+.banner .arrow {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  top: calc(50% - 1.5vw);
+  width: 100%;
+}
+.banner .arrow .arrow_in img {
+  width: 3vw;
+}
+.banner .order {
+  position: absolute;
+  bottom: 30px;
+  left: calc(50% - 72.5px);
+}
+.banner .order img {
+  width: 100px;
+}
+
+.attention {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  display: flex;
+  justify-content: center;
+}
+.attention .attention_in {
+  width: 1240px;
+}
+.attention .attention_in .nowadays {
+  font-size: 36px;
+  text-align: center;
+  padding-bottom: 30px;
+}
+.attention .attention_in .categorys {
+  width: 1240px;
+  position: relative;
+}
+.attention .attention_in .categorys .category_details {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+.attention .attention_in .categorys .category_details .category_detail {
+  padding: 10px 20px 10px 20px;
+  font-size: 15px;
+  border-radius: 30px;
+  border: 1px solid #FF9900;
+}
+.attention .attention_in .categorys .category_details .category_detail_n {
+  padding: 10px 20px 10px 20px;
+  font-size: 15px;
+  border-radius: 32px;
+  border: 1px solid #FF9900;
+  background-color: #FF9900;
+  color: #fff;
+}
+.attention .attention_in .categorys .more {
+  position: absolute;
+  right: 0px;
+  top: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  line-height: 8px;
+  font-size: 15px;
+}
+.attention .attention_in .categorys .more img {
+  width: 8px;
+}
+.attention .attention_in .attention_items {
+  margin-top: 50px;
+  box-sizing: border-box;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+.attention .attention_in .attention_items .attention_item {
+  width: 222px;
+  box-sizing: border-box;
+}
+.attention .attention_in .attention_items .attention_item .attention_img {
+  border-radius: 50%;
+  overflow: hidden;
+  width: 222px;
+  height: 222px;
+}
+.attention .attention_in .attention_items .attention_item .attention_img img {
+  width: 100%;
+}
+.attention .attention_in .attention_items .attention_item .attention_name {
+  margin-top: 20px;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.attention .attention_in .attention_items .attention_item .attention_price {
+  margin-top: 8px;
+  text-align: center;
+  color: #525252;
+}
+.attention .attention_in .page {
+  font-size: 15px;
+  font-weight: 400;
+  color: #000;
+  width: 100%;
+  text-align: center;
+}
+.attention .attention_in .page .blank {
+  display: inline-block;
+  width: 15px;
+}
+
+.selections {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 100px;
+}
+.selections .selection {
+  width: 1240px;
+}
+.selections .selection .nowadays {
+  font-size: 36px;
+  text-align: center;
+  padding-bottom: 40px;
+}
+.selections .selection .each {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+.selections .selection .each .each_category {
+  width: 160px;
+}
+.selections .selection .each .each_category .each_img {
+  width: 160px;
+  height: 160px;
+  background-color: #C7CED6;
+  border-radius: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.selections .selection .each .each_category .each_img img {
+  max-width: 60%;
+  max-height: 60%;
+  display: block;
+  filter: drop-shadow(0px 5px 3px rgba(0, 0, 0, 0.25));
+}
+.selections .selection .each .each_category .each_name {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 16px;
+}
+
+.banner2 {
+  width: 100%;
+}
+.banner2 img {
+  width: 100%;
+}
+
+.bestsellers {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.bestsellers .bestseller {
+  width: 1240px;
+}
+.bestsellers .bestseller .top {
+  font-size: 36px;
+  text-align: center;
+  padding-bottom: 40px;
+}
+.bestsellers table {
+  width: 1240px;
+  height: 50px;
+  border-collapse: collapse;
+  text-align: center;
+}
+.bestsellers table td {
+  width: 12.5%;
+  border: solid 1px #FF9900;
+  text-align: center;
+}
+.bestsellers table .first {
+  width: 12.5%;
+  border: solid 1px #FF9900;
+  background-color: #FF9900;
+  color: #fff;
+  text-align: center;
+}
+.bestsellers .books {
+  width: 1240px;
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.bestsellers .books .book {
+  position: relative;
+  width: 222px;
+}
+.bestsellers .books .book .bk_number {
+  position: absolute;
+  display: flex;
+  top: 0px;
+  right: 0px;
+  width: 50px;
+  height: 40px;
+  background-color: #FF9900;
+  color: #fff;
+  font-size: 23px;
+  font-weight: 700;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0px 0px 13px 13px;
+  filter: drop-shadow(0px 5px 3px rgba(80, 48, 0, 0.5));
+}
+.bestsellers .books .bk_image {
+  width: 100%;
+  height: 298px;
+}
+.bestsellers .books .bk_image img {
+  width: 100%;
+  display: block;
+}
+.bestsellers .books .bk_name {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #000;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.bestsellers .books .bk_price {
+  margin-top: 7px;
+  font-size: 18px;
+  color: #525252;
+}
+
+.footer {
+  padding: 30px 0px 30px 0px;
+  background-color: #24303E;
+  color: #fff;
+}
+.footer .footer_in {
+  width: 1240px;
+}
+.footer .footer_in .footer_name {
+  font-weight: 300;
+}/*# sourceMappingURL=amazon_small.css.map */

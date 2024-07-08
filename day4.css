@@ -1,0 +1,48 @@
+body{
+    padding:0px;
+    margin:0px;
+    font-family: "Noto Sans KR", sans-serif;
+}
+
+.logo{
+    position: fixed;
+    left: 30px;
+    top: 20px;
+}
+.menu{
+    position: fixed;
+    right: 30px;
+    top: 20px;
+    color: white;
+}
+a:link{
+    color: white;
+    text-decoration: none;
+}
+a:visited{
+    color: white;
+    text-decoration: none;
+}
+.main1{
+    background-color: #272782;
+    height: 100vh;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 12vw;
+    font-weight: 500;
+    line-height: 100vh;
+}
+.main2{
+    height: 100vh;
+    position: relative;
+}
+.circle{
+    background-color: pink;
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    left:calc(50% - 250px);
+    top:calc(50% - 250px);
+    border-radius: 50%;
+}

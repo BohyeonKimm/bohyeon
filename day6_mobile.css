@@ -1,0 +1,90 @@
+@media only screen and (max-width: 600px) {
+  body {
+    padding: 0px;
+    margin: 0px;
+    font-family: "Inter", "Noto Sans KR", sans-serif;
+    font-weight: 500;
+    background-color: #fff;
+  }
+  ul, li {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+  }
+  .header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .header .logo img {
+    width: 90px;
+  }
+  .header .menu {
+    display: flex;
+    gap: 25px;
+    font-size: 22px;
+    text-transform: uppercase;
+    display: none;
+  }
+  .header .mobile_menu {
+    display: block;
+    font-size: 18px;
+  }
+  .title {
+    font-size: 5.2vw;
+    line-height: 5.1vw;
+    padding-top: 103px;
+    padding-bottom: 63px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .title .span_t {
+    width: 20px;
+    height: 5px;
+    display: inline-block;
+  }
+  .business_info {
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-size: 22px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .business_info .bi_right {
+    display: flex;
+    gap: 22px;
+  }
+  .main_img {
+    background-image: url(./day6_background.jpg);
+    background-size: cover;
+    height: 100vh;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    box-sizing: border-box;
+  }
+  .main_img .image_copy {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 300;
+    width: 100%;
+  }
+  .main_img .arrow {
+    position: fixed;
+    bottom: 15px;
+    left: calc(50% - 15px);
+    display: block;
+  }
+}/*# sourceMappingURL=day6_mobile.css.map */

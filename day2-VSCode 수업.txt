@@ -1,0 +1,56 @@
+img tag 에서 alt 시각장애인을 위하여 사용함
+
+
+input text : <input type="text"> 아이디 패스워드 작성시 주로사용 됨 1줄만 입력가능
+<input type="password"> 입력하면 패스워드화 됨
+<input type="phon"> 숫자만 입력됨 number 도 같음
+<input type="check box"> 다중선택이 가능함
+<input type="radio" name= "grade" id="g1"><label for="g1">1학년</label>
+=> <label><input type="radio" name= "grade" id="g1">1학년</label>
+라디오 하나만 선택됨
+네임이라는 속성을 써줘야 하나로 인식한다.
+
+select box 안데 select tag
+
+<select> 안에는 <option> 이들어간다.
+
+<textarea> 여러줄 입력가능
+
+<div>투명한 공간 공간 나눠줄때 사용[그룹핑역활=span 도 동일한 역활을 함]
+<button> 회원가입 버튼이라던가 일반적으로 사용되는 버튼 
+
+<a> tag로 link 하는 것과 button 기능올 만드는 것 
+
+input box , textarea=> placeholder [예시 및 임시 내용 으로 어떻게 작성하는게 좋을지 안내 해주는 기능]
+<a href="https://naver.com" taget="_blank"> 타켓 블랭크는 새창으로 뜨도록 함
+
+; 문장의 마침표 - 의미 명령어를 쓰고 반드시 써줘야 한다.
+
+타이포그래피
+
+
+영문은 기본 10kb 가 넘지 않는다 
+
+한글 폰트는 무겁다.
+
+
+영문 추천 
+helvetica (유료) Inter(무료) Roboto(무료)
+
+한글
+맥-애플산돌고딕(유료)
+프리텐다드(애플 산돌고딕 - 비슷함[주로 이걸로 많이 활용 하기])
+노토산스(not bad- 괜찮음)
+
+부리가 없다.산 세리프
+세리프
+
+
+
+서브 셋 폰트
+
+10000자중 "밡갍 곮 홅....."같은 불필요 한 문자를 지우고 실세사용 하는 문자만 사용하여폰트를 만듦
+
+다이나믹 서브셋 폰트(웬만 하면 쓰면 좋다)
+
+font- weight 기본 400 레귤러 , 미디엄 500 이지만 다이나믹 폰트는 그런 기본 폰트 외에도 "420 450 470..." 과  같이 그 사이에 글씨 두께를 지정하여 미세한 차이를 줄일 수 있다.
