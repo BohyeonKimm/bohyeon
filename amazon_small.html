@@ -6,65 +6,79 @@
     <title>amazon_small</title>
     <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
     <link rel="stylesheet" href="./amazon_small.css">
+    <link rel="stylesheet" href="./amazon_mobile.css">
 </head>
 <body>
     <div class="header">
         <div class="header_in">
-        <div class="menu">
-            <img src="./amazon/menu.svg"/>
-            <img src="./amazon/Logo.svg"/>
-        </div>
-        <div class="search">
-            <div class="category">
-                카테고리
-                <img src="./amazon/Polygon 1.svg"/>
+            <div class="menu">
+                <img src="./amazon/menu.svg"/>
+                <img src="./amazon/Logo.svg"/>
             </div>
-            <div class="search_button">
-                <img src="./amazon/Search.svg"/>
+            <div class="search">
+                <div class="category">
+                    카테고리
+                    <img src="./amazon/Polygon 1.svg"/>
+                </div>
+                <input type="text" placeholder="검색">
+                <div class="search_button">
+                    <img src="./amazon/Search.svg"/>
+                </div>
             </div>
-        </div>
-        <div class="my_menu">
-            <div class="country">
-                <img src="./amazon/Republic of Korea.svg"/>
-                <div class="country_detail">
-                    <div class="address">
-                        배송지 / 통화
+            <div class="my_menu">
+                <div class="country">
+                    <img src="./amazon/Republic of Korea.svg"/>
+                    <div class="country_detail">
+                        <div class="address">
+                            배송지 / 통화
+                        </div>
+                        <div class="korea">
+                            대한민국
+                        </div>
                     </div>
-                    <div class="korea">
-                        대한민국
+                </div>
+                <div class="my_details">
+                    <div class="my_detail">
+                        <img src="./amazon/user.svg"/></br>
+                        로그인
+                    </div>
+                    <div class="my_detail">
+                        <img src="./amazon/truck.svg"/></br>
+                        배송
+                    </div>
+                    <div class="my_detail">
+                        <img src="./amazon/cart.svg"/></br>
+                        장바구니
                     </div>
                 </div>
             </div>
-            <div class="my_details">
-                <div class="my_detail">
-                    <img src="./amazon/user.svg"/></br>
-                    로그인
-                </div>
-                <div class="my_detail">
-                    <img src="./amazon/truck.svg"/></br>
-                    배송
-                </div>
-                <div class="my_detail">
-                    <img src="./amazon/cart.svg"/></br>
-                    장바구니
-                </div>
-            </div>
-        </div>
         </div>
     </div>
     <div class="header_second">
         <div class="header_second_in">
-            <ul class="header_menu">
+            <ul>
                 <li>오늘의 딜</li>
                 <li>기념일</li>
                 <li>기프트 카드</li>
                 <li>판매자</li>
             </ul>
         </div>
+        <div class="header_second_mobile">
+            <ul>
+                <li>오늘의 딜</li>
+                <li>베스트 셀러</li>
+                <li>기념일</li>
+                <li>기프트 카드</li>
+                <li>음악</li>
+                <li>비디오</li>
+                <li>도서</li>
+                <li>CD</li>
+            </ul>
+        </div>
     </div>
     <div class="banner">
-        <img src="./amazon/Frame 427318269.png"/>
-        <div class="banner_img"></div>
+        <img class="banner_pc" src="./amazon/Frame 427318269.png"/>
+        <img class="banner_mobile" src="./amazon/배너2_비행기종이_모바일용.png"/>
         <div class="arrow">
             <div class="arrow_in">
             <img src="./amazon/chevron-left.svg"/>
@@ -376,8 +390,6 @@
                         ₩ 24,233
                     </div>
                 </div>
-            </div>
-            <div class="books">
                 <div class="book">
                     <div class="bk_number">
                         06
@@ -453,22 +465,37 @@
     </div>
     <div class="footer">
         <div class="footer_top">
-            <div class="footer_in">
-                <div class="footer_title">
-                    당사에 대해 알아보기
-                </div>
-                <div class="footer_name">
-                    커리어</br>
-                    블로그</br>
-                    Amazon 소개</br>
-                    투자자 관계</br>
-                    Amazon 디바이스</br>
-                    아마존 사이언스</br>
+            <div class="ft_left">
+                <img src="amazon/Logo.svg"/>
+                <div class="ft_buttons">
+                    <div class="ft_button">
+                        <img src="./amazon/Republic of Korea.svg">
+                    </div>
+                    <div class="ft_button">
+                        <img src="./amazon/won.svg"/>
+                    </div>
+                    <div class="ft_button">
+                        <img src="./amazon/human.svg">
+                    </div>
                 </div>
             </div>
+            <ul class="ft_right">
+                <li>회사 소개</li>
+                <li>비즈니스</li>
+                <li>Amazon 결제</li>
+                <li>지원</li>
+            </ul>
         </div>
         <div class="footer_bottom">
-
+            <ul>
+                <li>이용 약관</li>
+                <li>개인정보 취급 고지</li>
+                <li>소비자 건강 데이터 개인정보 공개</li>
+                <li>광고 개인정보보호 선택 항목</li>
+            </ul>
+            <div class="fb_bottom">
+                © 1996-2024, Amazon.com, Inc. 또는 계열사
+            </div>
         </div>
     </div>
 </body>
